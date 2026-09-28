@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Worksheet05\\x64\\Debug\\format.obj",
+            "outputs": [
+                "Worksheet05\\x64\\Debug\\format.obj.dt.module.json",
+                "Worksheet05\\x64\\Debug\\format.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
