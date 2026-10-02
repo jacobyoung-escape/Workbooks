@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Worksheet04\\x64\\Debug\\Problem02.obj",
+            "outputs": [
+                "Worksheet04\\x64\\Debug\\Problem02.cpp.obj.dt.module.json",
+                "Worksheet04\\x64\\Debug\\Problem02.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
