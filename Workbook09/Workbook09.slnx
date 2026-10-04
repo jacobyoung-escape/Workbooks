@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Workbook09.vcxproj" />
+  <Project Path="Workbook09.vcxproj" Id="faffd3d0-a5c0-4140-9973-9bde0b8e3f72" />
 </Solution>

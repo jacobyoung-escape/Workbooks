@@ -110,24 +110,75 @@ void Problem03()
 //Problem04
 constexpr int RoomWidth{ 12 };
 constexpr int RoomHeight{ 6 };
+int doorIndex{ 0 };
 
 void Problem04()
 {
-    for (int i = 0; i < RoomHeight; ++i)
-    {
-        std::cout << "\n";
-		for (int j = 0; j < RoomWidth; ++j)
+	for (int y = 0; y < RoomHeight; y++)
+	{
+		std::cout << '\n';
+		for (int x = 0; x < RoomWidth; x++)
 		{
-			if (i == 0 || i == RoomHeight - 1 || j == 0 || j == RoomWidth - 1)
+			if (x == 0 || x == RoomWidth - 1 || y == 0 || y == RoomHeight - 1)
 			{
-				std::cout << "#";
+				std::cout << '#';
 			}
 			else
 			{
-				std::cout << ".";
+				std::cout << '.';
 			}
 		}
-    }
+	}
+
+	std::cout << '\n';
+
+	for (int y = 0; y < RoomHeight; y++)
+	{
+		std::cout << '\n';
+		for (int x = 0; x < RoomWidth; x++)
+		{
+			if (x == 0 && y == RoomHeight / 2)
+			{
+				std::cout << '+';
+			}
+			else if (x == 0 || x == RoomWidth - 1 || y == 0 || y == RoomHeight - 1)
+			{
+				std::cout << '#';
+			}
+			else
+			{
+				std::cout << '.';
+			}
+		}
+	}
+
+	std::cout << '\n';
+
+	for (int y = 0; y < RoomHeight; y++)
+	{
+		std::cout << '\n';
+		for (int x = 0; x < RoomWidth; x++)
+		{
+			if (x == 0 && y == RoomHeight / 2)
+			{
+				std::cout << '+';
+				doorIndex = y * RoomWidth + x;
+			}
+			else if (y == 0)
+			{
+				std::cout << std::format("{}", y * RoomWidth + x);
+			}
+			else if (x == 0 || x == RoomWidth - 1 || y == 0 || y == RoomHeight - 1)
+			{
+				std::cout << '#';
+			}
+			else
+			{
+				std::cout << '.';
+			}
+		}
+	}
+	std::cout << "\n" << doorIndex;
 }
 
 int main()
