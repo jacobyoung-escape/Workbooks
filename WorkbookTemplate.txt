@@ -1,0 +1,39 @@
+Void Problem01()
+{
+
+}
+
+Void Problem02()
+{
+
+}
+
+Void Problem03()
+{
+
+}
+
+Void Problem04()
+{
+
+}
+
+Void Problem05()
+{
+
+}
+
+Void Stretch()
+{
+
+}
+
+int main()
+{
+    Problem01();
+    Problem02();
+    Problem03();
+    Problem04();
+    Problem05();
+    Stretch();
+}
