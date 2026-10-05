@@ -68,6 +68,7 @@ vcpkg_installed/
 Testing/
 .cache/
 
+# my stuff
 x64/
 .vs/
 .vcxproj

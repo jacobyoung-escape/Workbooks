@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\clmxy\\onedrive\\desktop\\escape\\dev\\workbooks\\workbook10\\w10.cpp",
+        "Source": "c:\\dev\\workbooks\\workbook10\\w10.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\iostream",
